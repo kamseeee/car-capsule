@@ -1,0 +1,277 @@
+/**********GENERAL**********/
+h2 {
+  font-weight: 900 !important;
+  font-size: 5rem !important;
+}
+
+h3 {
+  font-weight: 900 !important;
+  font-size: 3rem !important;
+}
+
+nav {
+  padding: 2% 5% 0 !important;
+}
+
+section {
+  font-family: 'Signika', sans-serif;
+}
+
+.sticky {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  z-index: 100;
+  top: 0;
+  background-color: #FFFFFF;
+  padding-bottom: 15px !important;
+}
+
+.main {
+  padding: 6.5%;
+}
+
+.end {
+  padding: 6.5%;
+  padding-bottom: 1.5%;
+}
+
+.small-padding {
+  padding: 3% 0;
+}
+
+.push-in {
+  padding: 5% 0;
+}
+
+.center {
+  text-align: center;
+}
+
+
+/********** PRODUCTS **********/
+.in-cart {
+  background-color: #4D5154 !important;
+  border-color: #4D5154 !important;
+}
+
+.cart {
+  position: relative;
+  display: inline-block;
+}
+
+.cart .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 4px 6px;
+  border-radius: 100%;
+  background-color: #95389E;
+  color: white;
+}
+
+.card-img-top {
+  height: 11rem;
+}
+
+.product-card {
+  padding: 10px 5px;
+}
+
+.product-title {
+  border-bottom: 3px solid #5C236F;
+  padding-bottom: 3px;
+}
+
+
+/********** FORMS **********/
+.form-heading {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+}
+
+.form-section {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 12.5px;
+  border-radius: 5%;
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+
+/********** SECTIONS **********/
+.green-section {
+  background-color: #43D8C9;
+  color: #FFFFFF;
+}
+
+.purple-section {
+  background-color: #5C236F;
+  color: #FFFFFF;
+}
+
+.gradient-section {
+  background-image: linear-gradient(to bottom right, #5C236F, #43D8C9);
+  color: #FFFFFF;
+}
+
+
+/********** PERKS **********/
+.perk {
+  padding: 2%;
+}
+
+.perk-icon {
+  padding: 3%;
+}
+
+.perk-text {
+  font-size: 1.5rem;
+}
+
+
+/********** COLORS **********/
+.green {
+  color: #43D8C9;
+}
+
+.liked {
+  color: #FF1453 !important;
+}
+
+.purple {
+  color: #5C236F;
+}
+
+.white {
+  color: white;
+}
+
+.not-too-black {
+  color: #242124;
+}
+
+
+/********** BRAND NAME **********/
+.brand {
+  font-family: 'Unbounded', cursive;
+  font-weight: 900;
+  font-size: 1.65rem;
+  margin-bottom: 0 !important;
+}
+
+
+/********** BUTTONS **********/
+.service-btn {
+  margin: 10px 5px;
+}
+
+.signup-btn {
+  border-radius: 60px;
+  border: none;
+  font-family: Arial;
+  color: #ffffff;
+  background: #5C236F;
+  font-size: 20px;
+  padding: 8px 16px 8px 16px;
+  margin: 1.25rem 0.25rem;
+}
+
+.login-btn {
+  border-radius: 60px;
+  background: #FFFFFF;
+  font-family: Arial;
+  color: #5C236F;
+  font-size: 20px;
+  padding: 8px 16px 8px 16px;
+  border: solid #5C236F 2px;
+  text-decoration: none;
+  margin: 1.25rem 0.25rem;
+}
+
+.contact-btn {
+  border-radius: 48px;
+  border: none;
+  font-family: Arial;
+  color: #ffffff;
+  background: #5C236F;
+  font-size: 18px;
+  padding: 6.4px 12.8px 6.4px 12.8px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup-btn:hover {
+  background: #95389E;
+  border-color: #95389E;
+  text-decoration: none;
+}
+
+.login-btn:hover {
+  background: #f0e8ef;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background: #95389E;
+  border-color: #95389E;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #393E46;
+}
+
+.like-btn:hover {
+  border-color: white !important;
+  color: #424649 !important;
+}
+
+
+/********** SEARCH DIVISION **********/
+.search-div {
+  justify-content: center !important;
+}
+
+@media (max-width: 991px) {
+  .search-div {
+    justify-content: flex-start !important;
+    padding-left: 0 !important;
+    padding-top: 15px;
+  }
+}
+
+
+@media (max-width: 575px) {
+  h2 {
+    font-size: 4rem !important;
+  }
+
+  .form-section {
+    border: solid 10px;
+  }
+
+  .green-border {
+    border-color: #43D8C9;
+  }
+
+  .purple-border {
+    border-color: #5C236F;
+  }
+
+  .perk-text {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 2.5rem !important;
+  }
+
+  h4 {
+    font-size: 1.25rem !important;
+  }
+
+  .card-img-top{
+    height: 100%;
+  }
+}

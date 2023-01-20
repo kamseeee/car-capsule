@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Car Capsule</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicons/favicon.ico">
+
+    <!-- JavaScript -->
+    <script src="index.js" charset="utf-8" defer></script>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@700&family=Unbounded:wght@900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v6.2.1/js/all.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light sticky">
+        <p class="brand"><span class="green" href="">CAR</span><span class="purple">CAPSULE</span></p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid search-div">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <a class="nav-link active cart" href="#">
+            <span><i class="fa-solid fa-cart-shopping fa-2x"></i></span>
+            <span class="badge">0</span>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Appointments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Liked<span class="white">,</span>Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Log<span class="white">,</span>Out</a>
+            </li>
+          </ul>
+      </nav>
+      <div class="container justify-content-center">
+        <h3 class="product-title">Spare Parts</h3>
+        <p>Below are the spare parts that we currently have available. If you cannot find the spare part you need, you can <a href="order-spare-parts.html" class="text-decoration-none green">place an order </a> for it and we will get it delivered to you.</p>
+        <div class="row cars">
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+            <div class="card">
+              <img src="images/spare-parts/lexus-1lr-gue-v-10-engine.png" class="card-img-top" alt="lexus-1lr-gue-v-10-engine">
+              <div class="card-body">
+                <p class="card-text">Lexus 1LR-GUE V-10 Engine</p>
+                <p>₦10,604,000</p>
+                <a href="#" class="btn btn-dark btn-sm cart-btn">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+            <div class="card">
+              <img src="images/spare-parts/hyundai-accent-gearbox.jpg" class="card-img-top" alt="hyundai-accent-gearbox">
+              <div class="card-body">
+                <p class="card-text">Hyundai Accent Gearbox</p>
+                <p>₦850,000</p>
+                <a href="#" class="btn btn-dark btn-sm cart-btn">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+            <div class="card">
+              <img src="images/spare-parts/honda-accord-brakepad.jpg" class="card-img-top" alt="honda-accord-brakepad">
+              <div class="card-body">
+                <p class="card-text">Honda Accord Brake Pad</p>
+                <p>₦97,500</p>
+                <a href="#" class="btn btn-dark btn-sm cart-btn">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 product-card">
+            <div class="card">
+              <img src="images/spare-parts/mazda-cv-drive-axle-shafts.png" class="card-img-top" alt="mazda-cv-drive-axle-shafts">
+              <div class="card-body">
+                <p class="card-text">Mazda CV Drive Axle Shafts</p>
+                <p>₦138,000</p>
+                <a href="#" class="btn btn-dark btn-sm cart-btn">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="purple-section">
+          <div class="main center">
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <h3>Can't find what you need?</h3>
+                <a href="order-spare-parts.html"><button type="button" name="spare-parts" class="btn btn-outline-light btn-lg service-btn"><i class="fa-solid fa-bag-shopping"></i> Place an order</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="ms-2 me-2"><a class="social-link not-too-black" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="ms-2 me-2"><a class="social-link not-too-black" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="ms-2 me-2"><a class="social-link not-too-black" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="ms-2 me-2"><a class="social-link not-too-black" href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+          </ul>
+          <p class="text-center not-too-black">© 2023 Car Capsule</p>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>
